@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>path_planning</name>
+  <version>0.2.2</version>
+  <description>The path_planning package</description>
+
+  <author>Roberto Zegers</author>
+  <maintainer email="roberto@todo.todo">Roberto Zegers</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <!-- The *depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>pp_msgs</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>pp_msgs</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>pp_msgs</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

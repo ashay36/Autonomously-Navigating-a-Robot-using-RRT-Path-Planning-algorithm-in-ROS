@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="concrete_cube_1m">
+    <static>true</static>
+    <link name="link">
+      <collision name="concrete_cube_1m">
+        <pose>-0.0 0 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 1.0 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="concrete_cube_1m_visual">
+        <geometry>
+          <mesh>
+            <uri>model://concrete_cube_1m/meshes/concrete_cube_1m.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

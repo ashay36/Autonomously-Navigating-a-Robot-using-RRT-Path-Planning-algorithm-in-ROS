@@ -1,0 +1,26 @@
+material floor_tiles
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        // texture metal_ripped.png
+        texture floor_tiles.png
+        filtering anistorpic
+        max_anisotropy 16
+        // scale unevenly if body is not a square
+        // use the scale to adjust the size of the texture
+        // here the texture will be tiled 2 times in the surface (1/2 = 0.5)
+        scale 0.008 0.01
+        // uncomment to rotate angle in degree (CCW)
+        // rotate 90
+      }
+    }
+  }
+}

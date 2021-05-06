@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <arg name="map_file" default="$(find path_planning)/maps/res_world_map.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+  <include file="$(find path_planning)/launch/move_base.launch" />
+
+  <arg name="use_rviz" default="true" />
+  <arg name="rvizconfig" default="$(find path_planning)/rviz/path_planning_config.rviz"/>
+
+  <node if="$(arg use_rviz)" name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d $(arg rvizconfig)"/>
+
+  <node pkg="path_planning" name="rrt_algorithm" type="rrt.py" output="screen"/> 
+
+</launch>

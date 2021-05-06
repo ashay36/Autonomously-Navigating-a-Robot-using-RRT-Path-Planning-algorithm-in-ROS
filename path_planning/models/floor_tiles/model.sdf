@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="floor_tiles">
+    <static>true</static>
+    <link name="link">
+       <visual name='visual_floor_tiles_0'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>40 28 0.005</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://floor_tiles/materials/scripts</uri>
+            <uri>model://floor_tiles/materials/textures</uri>
+            <name>floor_tiles</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

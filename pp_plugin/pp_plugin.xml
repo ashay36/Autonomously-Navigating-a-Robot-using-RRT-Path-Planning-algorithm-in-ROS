@@ -1,0 +1,7 @@
+<library path = "lib/libpp_plugin">
+	<class name = "pp_plugin/PPPlugin" type = "pp_plugin::PPPlugin" base_class_type = "nav_core::BaseGlobalPlanner">
+		<description>
+			A global path planner plugin that implements RRT path planning algorithm and forwards the path to the move_base global planner module
+		</description>
+	</class>
+</library>

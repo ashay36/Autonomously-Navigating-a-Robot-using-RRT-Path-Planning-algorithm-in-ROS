@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="concrete_barrier_14m">
+    <static>true</static>
+    <link name="link">
+      <collision name="concrete_barrier_14m_01">
+        <pose>-0.0 0 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>14.0 0.15 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="concrete_barrier_14m_visual">
+        <geometry>
+          <mesh>
+            <uri>model://concrete_barrier_14m/meshes/concrete_barrier_14m.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
