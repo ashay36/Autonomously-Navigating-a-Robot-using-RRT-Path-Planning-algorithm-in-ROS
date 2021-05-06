@@ -11,7 +11,10 @@ The project includes a robot being spawned in a restaurant world. The robot trav
 7. Give a goal location using "2D Nav Goal" option in RViz
 
 ### Restaurant World 
+![Restaurant](world.png)
 
 ### RViz window 
+![RViz](rviz.png)
 
 ### RViz window with planned path
+![RViz with planned path](path_planning.png)
