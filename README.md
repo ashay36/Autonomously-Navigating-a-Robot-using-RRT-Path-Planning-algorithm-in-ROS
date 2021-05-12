@@ -20,6 +20,5 @@ The project includes a robot being spawned in a restaurant world. The robot trav
 ![RViz with planned path](path_planning.png)
 
 ### References :- 
-https://github.com/AtsushiSakai/PythonRobotics
-
-https://www.theconstructsim.com/develop-the-robots-of-the-future/
+1. https://github.com/AtsushiSakai/PythonRobotics
+2. https://www.theconstructsim.com/develop-the-robots-of-the-future/
